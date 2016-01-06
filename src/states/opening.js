@@ -28,7 +28,7 @@ export default {
   showLogo() {
     document.body.classList.add('body-stars');
 
-    this.logoText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'Louis\' 5th\nBirthday', {
+    this.logoText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'STAR\nWARS', {
       font: '140px sf_distant_galaxyregular',
       fill: 'rgb(0,0,0)',
       stroke: '#ff6',
@@ -46,7 +46,7 @@ export default {
   showStory() {
     this.storyGroup = this.game.add.group();
 
-    this.storyText1 = this.game.add.text(this.game.width * 0.5, this.game.height * 1.3, 'Episode VII\nSTARTING SCHOOL', {
+    this.storyText1 = this.game.add.text(this.game.width * 0.5, this.game.height * 1.3, 'Episode VII\nThe Diverse Force Awakens\n', {
       font: `700 60px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
@@ -58,7 +58,7 @@ export default {
 
     this.storyGroup.add(this.storyText1);
 
-    this.storyText2 = this.game.add.text(this.game.width * 0.5, this.storyText1.y + this.storyText1.height + 50, "It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.", {
+    this.storyText2 = this.game.add.text(this.game.width * 0.5, this.storyText1.y + this.storyText1.height + 50, "It is a period of civil war in tech. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.", {
       font: `700 44px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
@@ -80,7 +80,7 @@ export default {
 
     this.storyGroup.add(this.storyText3);
 
-    this.storyText4 = this.game.add.text(this.game.width * 0.5, this.storyText3.y + this.storyText3.height + 50, "Pursued by the Evil Empire's sinister agents, Jedi Louis races home aboard his starship, custodian of the stolen plan that can restore freedom to the galaxy....", {
+    this.storyText4 = this.game.add.text(this.game.width * 0.5, this.storyText3.y + this.storyText3.height + 50, "Pursued by the Evil Empire's sinister agents, Jedi Nicole races home aboard her starship, custodian of the stolen plan that can save people of color in tech and create equality in the galaxy...", {
       font: `700 44px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,

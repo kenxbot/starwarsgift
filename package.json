@@ -1,24 +1,24 @@
 {
-  "name": "star-wars-invite",
+  "name": "star-wars-gift",
   "version": "1.0.0",
-  "description": "Animated Star Wars Invite",
+  "description": "Animated Star Wars Gift",
   "main": "src/app.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "NODE_ENV=production webpack",
-    "deploy": "surge -p public -d louis.surge.sh",
+    "deploy": "surge -p public -d nicole.surge.sh",
     "yolo": "npm run build && npm run deploy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nickryall/louisinvite.git"
+    "url": "https://github.com/ticachica/starwarsgift.git"
   },
-  "author": "Nick Ryall",
+  "author": "Jennifer Arguello",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nickryall/louisinvite/issues"
+    "url": "https://github.com/ticachica/starwarsgift/issues"
   },
-  "homepage": "https://github.com/nickryall/louisinvite",
+  "homepage": "https://github.com/ticachica/starwarsgift",
   "dependencies": {
     "ampersand-app": "^1.0.4",
     "autoprefixer-stylus": "^0.5.0",

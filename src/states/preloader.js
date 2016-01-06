@@ -10,8 +10,7 @@ export default {
     this.load.image('image', 'images/background.png');
     this.load.audio('music', ['audio/music.m4a', 'audio/music.ogg']);
     this.load.audio('saber', ['audio/saber.m4a', 'audio/saber.ogg']);
-    this.load.image('luke', 'images/luke.png');
-    this.load.image('rsvp', 'images/rsvp.png');
+    this.load.image('nicole', 'images/nicole.png');
 
     this.showLoadingText();
   },
