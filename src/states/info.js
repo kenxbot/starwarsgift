@@ -20,7 +20,7 @@ export default {
   },
 
   showLogo() {
-    this.logoText = this.game.add.text(410, 60, 'Star Wars', {
+    this.logoText = this.game.add.text(410, 60, 'SMASH Stanford', {
       font: '75px sf_distant_galaxyregular',
       fill: 'rgb(0,0,0)',
       stroke: '#ff6',
@@ -32,7 +32,7 @@ export default {
   },
 
   showInfo() {
-    this.infoText = this.game.add.text(410, 250, 'Your Secret Santa Gift Nicole.\nMay the Diverse Force be with you!\n\n\nFrom Jen.', {
+    this.infoText = this.game.add.text(410, 250, 'Love you all!.\nMay SMASH be with you!\n\n\nFrom Kenny.', {
       font: `20px "${ app.fontFamily }"`,
       fill: '#fff',
       wordWrap: true,

@@ -10,7 +10,7 @@ export default {
     this.load.image('image', 'images/background.png');
     this.load.audio('music', ['audio/music.m4a', 'audio/music.ogg']);
     this.load.audio('saber', ['audio/saber.m4a', 'audio/saber.ogg']);
-    this.load.image('nicole', 'images/nicole.png');
+    this.load.image('nicole', 'images/bonfire.jpg');
 
     this.showLoadingText();
   },
@@ -47,7 +47,7 @@ export default {
   showIntro() {
     this.loadingText.destroy();
 
-    this.introText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'A long time ago, in a galaxy\nfar far away...', {
+    this.introText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'For 5 Weeks\nAt A Campus Far Far Away (Not Really)...', {
       font: `40px "${ app.fontFamily }"`,
       fill: 'rgb(75, 213, 238)'
     });

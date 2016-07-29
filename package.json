@@ -1,24 +1,25 @@
 {
-  "name": "star-wars-gift",
+  "name": "smash-2016-crawl",
   "version": "1.0.0",
   "description": "Animated Star Wars Gift",
   "main": "src/app.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "NODE_ENV=production webpack",
-    "deploy": "surge -p public -d nicole.surge.sh",
+    "deploy": "surge -p public -d smash2016starwars.surge.sh
+",
     "yolo": "npm run build && npm run deploy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ticachica/starwarsgift.git"
+    "url": "https://github.com/kenxbot/starwarsgift.git"
   },
-  "author": "Jennifer Arguello",
+  "author": "Kenny Tran",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ticachica/starwarsgift/issues"
+    "url": "https://github.com/kenxbot/starwarsgift/issues"
   },
-  "homepage": "https://github.com/ticachica/starwarsgift",
+  "homepage": "https://github.com/kenxbot/starwarsgift",
   "dependencies": {
     "ampersand-app": "^1.0.4",
     "autoprefixer-stylus": "^0.5.0",

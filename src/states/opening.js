@@ -28,7 +28,7 @@ export default {
   showLogo() {
     document.body.classList.add('body-stars');
 
-    this.logoText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'STAR\nWARS', {
+    this.logoText = this.game.add.text(this.game.width * 0.5, this.game.height * 0.5, 'SMASH\nStanford', {
       font: '140px sf_distant_galaxyregular',
       fill: 'rgb(0,0,0)',
       stroke: '#ff6',
@@ -46,7 +46,7 @@ export default {
   showStory() {
     this.storyGroup = this.game.add.group();
 
-    this.storyText1 = this.game.add.text(this.game.width * 0.5, this.game.height * 1.3, 'Episode VII\nThe Diverse Force Awakens\n', {
+    this.storyText1 = this.game.add.text(this.game.width * 0.5, this.game.height * 1.3, 'Year 2016\nThe Summer to Remember\n', {
       font: `700 60px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
@@ -58,7 +58,7 @@ export default {
 
     this.storyGroup.add(this.storyText1);
 
-    this.storyText2 = this.game.add.text(this.game.width * 0.5, this.storyText1.y + this.storyText1.height + 50, "It is a period of civil war in tech. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.", {
+    this.storyText2 = this.game.add.text(this.game.width * 0.5, this.storyText1.y + this.storyText1.height + 50, "It is the final summer for the SMASH 2017 cohort. They have lasted two summers being the underdogs of SMASH but now, they finally have the credit they deserve as 3rd years.", {
       font: `700 44px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
@@ -69,7 +69,7 @@ export default {
 
     this.storyGroup.add(this.storyText2);
 
-    this.storyText3 = this.game.add.text(this.game.width * 0.5, this.storyText2.y + this.storyText2.height + 100, "During the battle, Rebel spies managed to steal secret plans to the Empire's weapon,\nthe DEATH STAR, an armored space station with the power to destroy an entire planet.", {
+   this.storyText3 = this.game.add.text(this.game.width * 0.5, this.storyText2.y + this.storyText2.height + 2, "With a plan to have the most fun, the 3rd years will stop at nothing to fulfill their bucket list full of pranks, sleepovers, and bonding activities.", {
       font: `700 44px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
@@ -80,7 +80,7 @@ export default {
 
     this.storyGroup.add(this.storyText3);
 
-    this.storyText4 = this.game.add.text(this.game.width * 0.5, this.storyText3.y + this.storyText3.height + 50, "Pursued by the Evil Empire's sinister agents, Jedi Nicole races home aboard her starship, custodian of the stolen plan that can save people of color in tech and create equality in the galaxy...", {
+    this.storyText4 = this.game.add.text(this.game.width * 0.5, this.storyText3.y + this.storyText3.height + 320, "As RAs try to stop the 3rd years from fulfilling their bucket list, they continue to make this summer memorable. Now it is the final week, the 3rd years are getting ready to gather for one last bonding night at SMASH. They hope that this night is a night full of laughter, tears, and memories..." , {
       font: `700 44px "${ app.fontFamily }"`,
       fill: '#ff6',
       wordWrap: true,
